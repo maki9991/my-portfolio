@@ -1,0 +1,56 @@
+body {
+  background-color: rgb(134, 185, 206);
+}
+
+img {
+  height: 500px;
+}
+
+header {
+  padding-left: 3px;
+  padding-right: 50px;
+  background-color: rgba(80, 231, 214, 0.432);
+  color: teal;
+  font-size: 50;
+}
+
+.title {
+  font-size: 25px;
+  color: honeydew;
+}
+
+.container {
+  display: flex;
+}
+
+.item {
+  height: 200;
+  width: 500;
+  margin: 50px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  color: teal;
+  background-color: rgba(80, 231, 214, 0.432);
+  font-size: 35px;
+  font-family: sans-serif, "Hiragino Maru Gothic Pro", bolder;
+}
+
+li {
+  list-style: none;
+  color: rgb(15, 43, 66);
+  font-size: 15px;
+  font-family: fantasy;
+}
+
+p {
+  color: rgb(15, 43, 66);
+  padding-left: 60px;
+  padding-right: 60px;
+  font-size: 25;
+  font-family: "ヒラギノ丸ゴシック", bolder;
+}
+p.kind {
+  font-size: 15;
+}
