@@ -10,43 +10,64 @@
   <body>
     <title>My Portfolio</title>
     <header>
+      <div class="box">
+        <img src="./photos/light.jpg" alt="光の写真" class="light" />
+      </div>
       <h1>Welcome My Portfolio!</h1>
     </header>
 
-    <!--<img
-      src="https://www.pakutaso.com/shared/img/thumb/shinnryokuFTHG2900_TP_V.jpg"
-      alt="森の写真"
-    />-->
-    <img src="./photos/light.jpg" alt="光の写真" />
     <div class="title">まっきーの自己紹介サイトへようこそ！</div>
+    <div class="subtitle">
+      <p>ここは田舎に住む大学生の自己紹介ページです。</p>
+      <p>家から大学までおよそ3時間、電車旅を楽しんでいます。</p>
+    </div>
+    <!---花のスライドショー-->
+    <div class="slide">
+      <img src="./photos/rose-1.JPG" alt="薔薇１" class="flower" />
+      <img src="./photos/geranium.JPG" alt="ゼラニウム" class="flower" />
+      <img src="./photos/other-1.JPG" alt="その他１" class="flower" />
+      <img src="./photos/other-2.JPG" alt="その他２" class="flower" />
+      <img src="./photos/cristmasrose.JPG" alt="ローズ" class="flower" />
+      <img src="./photos/daisy.JPG" alt="デイジー" class="flower" />
+      <img src="./photos/pansy-1.JPG" alt="パンジー１" class="flower" />
+      <img src="./photos/pansy-2.JPG" alt="パンジー２" class="flower" />
+      <img src="./photos/sage.JPG" alt="セージ" class="flower" />
+    </div>
     <div class="container">
       <div class="item">
         Birthday
-        <p>９月25日</p>
+        <div>
+          <h2 id="display0"></h2>
+        </div>
+        
+        <button id="button0">Click Here!</button>
       </div>
+
       <div class="item">
         Hobby
-        <p>ガーデニング</p>
-        <p class="kind">何を育ててる？</p>
-        <ul style="list-style: disc">
-          <li>薔薇 Rose</li>
-          <li>ブーゲンベリア Bougainvillea</li>
-          <li>クリスマスローズ Christmas rose</li>
-          <li>サルビア Salvia</li>
-          <li>ペチュニア Petunia</li>
-          <li>セージ Sage</li>
-          <li>多肉植物 Succulent</li>
-          <li>サボテン Cactus</li>
-        </ul>
+        <div>
+          <h2 id="display1"></h2>
+        </div>
+        <button id="button1">Click Here!</button>
+
+        
       </div>
       <div class="item">
         Univresity
-        <p>奈良女子大学</p>
+        <div>
+          <h2 id="display2"></h2>
+        </div>
+        <button id="button2">Click Here!</button>
       </div>
       <div class="item">
         From
-
-        <p>兵庫県</p>
+        <div>
+          <h2 id="display3"></h2>
+        </div>
+        <button id="button3">Click Here!</button>
+      </div>
+      
+        <h2 id="display4"></h2>
       </div>
     </div>
     <script src="main.js"></script>
